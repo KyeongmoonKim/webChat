@@ -1,18 +1,19 @@
 package config;
 import org.springframework.context.annotation.*;
+import controller.*;
 
 @Configuration
 public class ControllerConfig {
 	
-	/*
 	@Bean
-	public UserController helloController() {
-		return new UserController();
+	public TestController testController() {
+		return new TestController();
 	}
+	
 	@Bean
-	public SqlController sqctr() {
+	public WebSocketController webSocketController() {
 		System.out.println("hi");
-		return new SqlController();
+		return new WebSocketController();
 	}
-	*/
+	
 }
